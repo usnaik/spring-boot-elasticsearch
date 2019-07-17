@@ -1,0 +1,40 @@
+http://localhost:8080/saveCustomer
+http://localhost:8080/findAll
+http://localhost:8080/findByFName/{firstName}
+
+
+[
+    {
+        "id": "12",
+        "firstname": "peter",
+        "lastname": "smith",
+        "age": 21
+    }
+]
+
+[
+    {
+        "id": "1",
+        "firstname": "peter",
+        "lastname": "smith",
+        "age": 20
+    },
+    {
+        "id": "2",
+        "firstname": "PETER",
+        "lastname": "Brown",
+        "age": 25
+    },
+    {
+        "id": "3",
+        "firstname": "Mary",
+        "lastname": "Taylor",
+        "age": 30
+    },
+    {
+        "id": "4",
+        "firstname": "Lauren",
+        "lastname": "Jons",
+        "age": 22
+    }
+]
